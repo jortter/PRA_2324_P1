@@ -7,8 +7,7 @@
 // Clase abstracta genérica
 template <typename T> 
 class List {
-    public:
-	 // Destructor virtual para asegurar la correcta destrucción de los objetos derivados       
+    public:       
 	 // ... aquí los métodos virtuales puros
 	void insert(int pos, T e);	
 	void append(T e);
