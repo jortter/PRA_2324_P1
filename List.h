@@ -31,9 +31,6 @@ class List {
 
         // Devuelve el número de elementos en la lista
         virtual int size() = 0;
-
-        // Destructor virtual para garantizar la correcta destrucción de las subclases
-        virtual ~List() = 0;
 };
 
 #endif
