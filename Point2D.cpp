@@ -11,7 +11,7 @@ Point2D::Point2D(double x, double y){
 
 // Calcula la distancia euclideana entre 2 puntos (a y b) -> Usar las funciones sqrt() y pow()de la librería <cmath>
 double Point2D:: distance(const Point2D &a, const Point2D &b){
-	return sqrt(pow((a.x - b.x), 2) + pow((a.y - b.y), 2));
+	return sqrt((pow(((a.x) -(b.x)), 2)) + (pow(((a.y) - (b.y)), 2)));
 }
 
 // Sobrecarga global del operador == -> Comprueba si dos puntos son iguales
