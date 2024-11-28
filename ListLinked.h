@@ -12,6 +12,16 @@ class ListLinked : public List<T> {
 
     public:
 
+		// Esta función nos sirve para la tabla hash para acceder al atributo first pues es privado
+		Node<T>* getFirst() const{
+			return first;
+		}
+
+		// Esta función también nos sirve para la tabla hash para modificar el atrubuto first
+		Node<T>* &getFirstRef(){
+			return first;
+		}
+
         // Constructor que inicializa los 2 atributos de instancia -> first será nullptr
 		ListLinked(){
 
